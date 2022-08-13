@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+main{
+  padding: 36px;
+  width: 550px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header__image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header__title {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.header__project{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Forms */
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form__input{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+
+}
+
+.form__button{
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Meme Image */
+
+.meme__Image{
+  width: 100%;
+}
